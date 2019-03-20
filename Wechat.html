@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width device-width,initial-scale=1.0,user-scalable=0">
+		<title></title>
+		<style>
+			*
+			{
+				margin: 0;
+				padding: 0;
+			}
+			#hello
+			{
+				width: 100%;
+				height: 80px;
+				position: absolute;
+				bottom: 0;
+				/*background-color: bisque;*/
+				text-align: center;
+			}
+			.wechat
+			{
+				width: 25%;
+				height: 50px;
+				float: left;
+				position: relative;
+			}
+			.msg
+			{
+				width:20px;
+				height: 20px;
+				background-color: #FA2F2F;
+				border-radius: 50%;
+				position: absolute;
+				left: 60px;
+			}
+			.msg span
+			{
+				color: white;
+				font-size: 12px;
+				position: absolute;
+				left: 3px;
+				top: 1.2px;
+			}
+		</style>
+	</head>
+	<body>
+	    <div id="hello">
+	        <div class="wechat">
+	        	<div class="msg">
+	        		<span>15</span>
+	        	</div>
+			    <img src="../img/微信.svg" width="50px" height="50px" align="center"/>
+		        <h4 align="center">微信</h4>
+		    </div>
+		    <div class="wechat">
+			    <img src="../img/通讯录.svg" width="50px" height="50px"/>
+                <h4 align="center">通讯录</h4> 
+		    </div>
+		    <div class="wechat">
+			    <img src="../img/发现.svg" width="50px" height="50px"/>
+			    <h4 align="center">发现</h4>
+		    </div>
+		    <div class="wechat">
+			    <img src="../img/我.svg" width="50px" height="50px"/>
+			    <h4 align="center">我</h4>
+		    </div>
+		   </div>
+	</body>
+</html>
