@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>鼠标点击出现菜单</title>
+		<style>
+			*
+			{
+				margin: 0;
+				padding: 0;
+			}
+			body
+			{
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				/*overflow: scroll;*/
+			}
+			#reddiv
+			{
+				width: 100%;
+				height: 100%;
+				background-color: darkgray;
+				transition: all 1s;
+			}
+			#bluediv
+			{
+				width: 100%;
+				height: 100%;
+				background-color: darkseagreen;
+				position: absolute;	
+				top: 0px;
+				z-index: -1;			
+			}
+			ul li
+			{
+				text-indent: 20px;
+			}
+			a
+			{
+				color: white;
+				text-decoration: none;
+			}
+			.move
+			{
+				transform: translate(100px);
+			}
+		</style>
+		<script type="text/javascript" src="../js/jquery.js"></script>
+	</head>
+	<body>
+		<div id="reddiv">
+			<button id="btn">click</button>
+		</div>
+		<div id="bluediv">
+			<ul>
+				<li><a href="#">Task</a></li>
+				<li><a href="#">Messages</a></li>
+				<li><a href="#">New Post</a></li>
+				<li><a href="#">Settings</a></li>
+				<li><a href="#">Starred</a></li>
+				<li><a href="#">Logout</a></li>
+			</ul>
+		</div>
+	</body>
+	<script>
+		$(function(){
+			$("#btn").click(function(){
+				$("#reddiv").toggleClass("move");
+			})
+		})
+	</script>
+</html>
