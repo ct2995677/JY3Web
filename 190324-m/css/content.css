@@ -1,0 +1,78 @@
+#content
+{
+flex:1;
+/*display: flex;
+flex-direction: column;
+justify-content: center;*/
+overflow: scroll;
+}
+#content ul
+{
+	width: 95%;
+	height: 59px;
+	background-color: -webkit-link;
+	display: flex;
+	align-items: center;
+}
+#onemessage
+{
+	width: 95%;
+	height: 65px;
+	background-color: white;
+	display: flex;
+	border-bottom: 1px solid darkgrey;
+}
+#touxiang
+{
+	flex: 0.2;
+	height: 100%;
+	background-image: url(../img/微信图片_20190326154045.jpg);
+	background-size:100%;
+}
+#midmsg
+{
+	margin-left: 10px;
+	flex: 0.6;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#midmsg span:first-child
+{
+	font-size: 20px;
+}
+#midmsg span:nth-child(2)
+{
+	font-size: 14px;
+}
+#rightmsg
+{
+	flex: 0.2;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+#rightmsg img
+{
+	width: 20px;
+	height: 20px;
+}
+#onemessage1
+{
+	width: 95%;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	border-bottom: 1px solid darkgrey;
+}
+#onemessage2
+{
+	width: 95%;
+	height: 53px;
+	background-color: white;
+	display: flex;
+	border-bottom: 1px solid darkgrey;
+}

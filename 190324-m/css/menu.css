@@ -1,0 +1,34 @@
+#menu
+{
+	height: 50px;
+	background-color: whitesmoke;
+	width: 100%;			
+	position: absolute;
+				bottom: 0;
+				/*background-color: bisque;*/
+				text-align: center;
+			}
+			.wechat
+			{
+				width: 25%;
+				height: 50px;
+				float: left;
+				position: relative;
+			}
+			.msg
+			{
+				width:20px;
+				height: 20px;
+				background-color: #FA2F2F;
+				border-radius: 50%;
+				position: absolute;
+				left: 60px;
+			}
+			.msg span
+			{
+				color: white;
+				font-size: 12px;
+				position: absolute;
+				left: 3px;
+				top: 1.2px;
+			}
