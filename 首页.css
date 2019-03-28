@@ -1,0 +1,32 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.moveon
+{
+	transform: translateY(-1600px);
+}
+
+
+
+
+
+
+
+/*.move
+{	
+	transform: translateY(0px);
+}*/
+
+
+
+#tanchuang
+{
+	transition: all 2s;
+}
+#anniu
+{
+	transition: all 2s;
+}
