@@ -6,5 +6,104 @@
 #bannder img
 {
 	width: 100%;
-	height:600px;
+	height:714px;
 }
+
+
+
+
+.sousuo {
+    height: 70px;
+    width: 800px;
+    display: flex;
+  	justify-content: center;
+  	
+}
+.parent {
+    margin-top: 20px;
+    margin-left: 167px;
+}
+.search {
+    width: 940px;
+    height: 80px;
+    border-radius: 35px;
+    border: 1px solid ;
+    padding-left: 36px;
+    font-size: 40px;
+    display: flex;
+    margin-top: 22px;
+}
+
+ul
+{
+	list-style:none;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+ul li
+{
+	width: 110px;
+	height: 40px;
+	/*距离上边3像素*/
+	margin-top: 3px;
+	font-size: 18px;
+	text-align: center;
+	/*行高*/
+	line-height: 40px;
+	/*圆角工具*/
+	border-radius: 3px;
+	/*过渡效果*/
+	transition: background-color 1.5s;
+	}
+/*伪类*/
+li:hover
+{
+	background-color: #fa2f2f;
+	/*变手势*/
+	cursor: pointer;
+}
+
+li:hover 
+{
+	color: white;
+}
+
+a:focus li
+{
+	background-color: #FA2F2F;
+	color:white;
+}
+
+.moveon
+{
+	transform: translateX(1000px);
+}
+
+
+
+
+
+
+
+/*.move
+{	
+	transform: translateY(0px);
+}*/
+
+
+
+#gerenxinxi
+{
+	transition: all 2s;
+}
+.me
+{
+	transition: all 2s;
+}
+
+
