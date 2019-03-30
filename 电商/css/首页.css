@@ -1,0 +1,48 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.moveon
+{
+	transform: translateY(-1600px);
+	/*background-color: rgba(0,0,0,0.5);*/
+}
+
+
+
+
+
+
+
+/*.move
+{	
+	transform: translateY(0px);
+}*/
+
+
+
+#tanchuang
+{
+	transition: all 0.5s;
+}
+#anniu
+{
+	transition: all 0.5s;
+}
+.erweimaone
+{
+	width: 450px;
+	height: 450px;
+	opacity: 0;
+}
+.tanchuerweima
+{
+	opacity: 1;
+	transition: all 0.5s;
+}
+.xiaoshi
+{
+	display: none;
+}

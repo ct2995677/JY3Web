@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/首页.css" />
+		
+	</head>
+	<body>
+		
+		
+		
+		
+		<div id="background">
+		</div>
+		
+		
+		
+		
+		<script type="text/javascript" src="js/首页.js" ></script>
+	</body>
+	
+	<script>
+		$(function(){
+			$("#anniu").click(function(){
+				$("#tanchuang").toggleClass("moveon");
+			})
+			$("#xiatanchuang").click(function(){
+				$("#tanchuang").toggleClass("moveon");	
+			})
+			
+			$(".tcwx").click(function(){
+				$(".erweimaone").toggleClass("tanchuerweima");	
+				$("#tanchuang").toggleClass("xiaoshi");
+			})
+			$(".erweimaone").click(function(){
+				$("#tanchuang").toggleClass("xiaoshi");	
+				$(".erweimaone").toggleClass("tanchuerweima");
+			})
+			
+			
+		})
+		
+		
+		
+//		
+//		$(function(){
+//			$("#tanchuang").click(function(){
+//				$("#tanchuang").toggleClass("move");
+//			})
+//		})
+//		
+		
+//		$(function(){
+//			$("#anniu").click(function(){
+//				$("#tanchuang").toggleClass("moveon");
+//			})
+//		})
+//		
+		
+		
+	</script>
+</html>

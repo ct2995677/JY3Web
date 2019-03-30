@@ -1,0 +1,116 @@
+*
+{
+	padding: 0px;
+	/*margin: 0px;*/
+}
+#bannder img
+{
+	width: 100%;
+	height:714px;
+}
+
+
+
+
+.sousuo {
+    height: 70px;
+    width: 800px;
+    display: flex;
+  	justify-content: center;
+  	
+}
+.parent {
+    margin-top: 20px;
+    margin-left: 167px;
+}
+.search {
+    width: 940px;
+    height: 80px;
+    border-radius: 35px;
+    border: 1px solid ;
+    padding-left: 36px;
+    font-size: 40px;
+    display: flex;
+    margin-top: 22px;
+}
+
+ul
+{
+	position: absolute;
+	list-style:none;
+	margin-top: 100px;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+ul li
+{
+	width: 200px;
+	height: 100px;
+	/*距离上边3像素*/
+	margin-top: 15px;
+	font-size: 40px;
+	text-align: center;
+	/*行高*/
+	line-height: 100px;
+	/*圆角工具*/
+	border-radius: 10px;
+	/*过渡效果*/
+	transition: background-color 0.5s;
+	color: #996699;
+	}
+/*伪类*/
+li:hover
+{
+	background-color: #996699;
+}
+
+li:hover 
+{
+	color: white;
+}
+
+/*a:focus li
+{
+	background-color: #FA2F2F;
+	color:white;
+}*/
+
+.moveon
+{
+	transform: translateX(1000px);
+}
+
+
+
+
+
+
+
+/*.move
+{	
+	transform: translateY(0px);
+}*/
+
+
+
+#gerenxinxi
+{
+	transition: all 0.5s;
+}
+.me
+{
+	transition: all 0.5s;
+}
+
+
+
+.touming
+{
+	opacity: 0.5;
+	transition: all 0.5s;
+}
