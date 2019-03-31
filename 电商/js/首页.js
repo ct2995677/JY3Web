@@ -42,13 +42,36 @@ $(function(){
 				
 				
 				
-				$("#background").append("<div id=erweima></div>");
+				$("#background").append("<div id='erweima'></div>");
+				$("#erweima").css({"position":"absolute","left":"264px","top":"410px","width":"800px","height":"800px"});
 				$("#erweima").append("<img src='http://pp0aocw81.bkt.clouddn.com/IdWTZX2cMA==.jpg'  class='erweimaone'/>");
-				$("#erweima").css({"position":"absolute","left":"264px","top":"410px","width":"100px","height":"100px"});
-				$("#erweima").append("<span>长按识别二维码登陆</span>")
-//				$("#erweimaone").css({"width":"500px","height":"500px"});
+				$("#background").append("<p id='saomiao'>长按识别二维码登陆</p>");
+				$("#saomiao").css({"font-size":"40px","color":"white","position":"absolute","left":"40px","top":"531px"});
 				
 				
+				
+				$("#background").append("<div id='qqtanchuang'></div>");
+				$("#qqtanchuang").css({"position":"absolute","left":"87px","top":"410px","width":"800px","height":"500px","background-color":"white","opacity":"0","z-index":"-1"});
+				$("#qqtanchuang").append("<p><b>QQ登陆</b></p>");
+				$("#qqtanchuang").append("<span id='shenqing'>QQ申请获得以下权限</span>");
+				$("#qqtanchuang").append("<hr id='fengexian' />");
+				$("#qqtanchuang").append("<span id='huode'>获得你的公开信息（昵称、头像等）</span>");
+				$("#qqtanchuang p").css({"font-size":"50px","position":"absolute","left":"305px","top":"30px"});
+				$("#shenqing").css({"font-size":"30px","position":"absolute","left":"255px","top":"121px"});
+				$("#huode").css({"font-size":"30px","position":"absolute","left":"175px","top":"260px"});
+				$("#fengexian").css({"position":"absolute","left":"75px","top":"210px","width":"659px","background-color":"black"});
+				$("#qqtanchuang").append("<button id='fou'><p><b>否</b></p></button>");
+				$("#qqtanchuang").append("<a href='商品.html'><button id='shi'><p><b>是</b></p></button></a>");
+				$("#fou").css({"border":"1px solid black","position":"absolute","left":"100px","top":"360px","width":"254px","height":"77px","font-size":"38px"});
+				$("#shi").css({"border":"1px solid black","position":"absolute","left":"455px","top":"360px","width":"254px","height":"77px","font-size":"38px"});
+				
+				
+				
+				
+//				$("#qqtanchuang").append("<img src='http://pp0aocw81.bkt.clouddn.com/IdWTZX2cMA==.jpg'  class='tan'/>");
+//				$(".tan").append("<p id='saomiao'>长按识别二维码登陆</p>");
+//				$("#saomiao").css({"font-size":"40px","color":"white","position":"absolute","left":"40px","top":"531px"});
+//				
 				
 				
 				

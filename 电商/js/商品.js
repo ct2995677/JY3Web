@@ -24,7 +24,7 @@ $(function(){
 			
 				
 				
-				$("#shangpin").append("<img src='http://pp0aocw81.bkt.clouddn.com/ss.jpg' class='tuone' />");
+				$("#shangpin").append("<a href='详细页面.html'><img src='http://pp0aocw81.bkt.clouddn.com/ss.jpg' class='tuone' /></a>");
 				$(".tuone").css({"width":"100%","height":"641px","display":"flex","margin-top":"73px"});
 				$("#shangpin").append("<div id='diyigezi'></div>")
 				$("#diyigezi").css({"display":"flex"});
@@ -90,7 +90,7 @@ $(function(){
 				$("option").css({"font-size":"14px","color":"rgb(153,102,153)","font-weight":"bold"});
 				$("#menu").append("<input type='date' class='time'/>");
 				$(".time").css({"height":"76px","font-size":"40px","font-weight":"bold","display":"flex","flex":"0.57","border-top":"none","text-indent":"19px","border-bottom":"none"});
-				$("#menu").append("<img src='http://pp0aocw81.bkt.clouddn.com/%E7%AE%AD%E5%A4%B4.png' class='jiantou'>");
+				$("#menu").append("<a href='首页.html'><img src='http://pp0aocw81.bkt.clouddn.com/%E7%AE%AD%E5%A4%B4.png' class='jiantou'></a>");
 				$(".jiantou").css({"height":"80px","display":"flex","flex":"0.1"});
 				
 				

@@ -31,7 +31,7 @@
     padding-left: 36px;
     font-size: 40px;
     display: flex;
-    margin-top: 22px;
+    margin-top: -430px;
 }
 
 ul
@@ -113,8 +113,4 @@ li:hover
 {
 	opacity: 0.5;
 	transition: all 0.5s;
-}
-.item p
-{
-	font-size: 35px;
 }

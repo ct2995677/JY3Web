@@ -13,6 +13,7 @@
 		
 		
 		<div id="background">
+			
 		</div>
 		
 		
@@ -33,11 +34,23 @@
 			$(".tcwx").click(function(){
 				$(".erweimaone").toggleClass("tanchuerweima");	
 				$("#tanchuang").toggleClass("xiaoshi");
+				$("#saomiao").toggleClass("tanchuerweimahaha");
 			})
 			$(".erweimaone").click(function(){
 				$("#tanchuang").toggleClass("xiaoshi");	
 				$(".erweimaone").toggleClass("tanchuerweima");
+				$("#saomiao").toggleClass("tanchuerweimahaha");
 			})
+
+			$(".tcqq").click(function(){
+				$("#qqtanchuang").toggleClass("tanchuqqdenglu");
+				
+			})
+			$("#qqtanchuang").click(function(){
+				$("#qqtanchuang").toggleClass("tanchuqqdenglu");	
+				
+			})
+			
 			
 			
 		})

@@ -15,14 +15,6 @@
 
 
 
-
-/*.move
-{	
-	transform: translateY(0px);
-}*/
-
-
-
 #tanchuang
 {
 	transition: all 0.5s;
@@ -45,4 +37,18 @@
 .xiaoshi
 {
 	display: none;
+}
+#saomiao
+{
+	opacity:0;
+}
+.tanchuerweimahaha
+{
+	opacity:1;
+	transition: all 0.5s;
+	}
+.tanchuqqdenglu
+{
+	opacity: 1;
+	/*transition: all 0.5s;*/
 }
